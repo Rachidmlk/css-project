@@ -1,0 +1,107 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+html{
+    height: 100vh;
+}
+body {
+   padding: 20px 180px;
+   margin: 0;
+   background-image: url("https://images.unsplash.com/photo-1688504278800-fcbd88b2ea82?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+
+    .nav {
+        text-decoration: none;
+        font-size: larger;
+    }
+
+    .nav.home {
+        color: #F75023;
+    }
+
+    .nav.button {
+        margin-left: 25px;
+        border: 2px solid #F75023;
+        padding: 10px 30px;
+        border-radius: 25px;
+        color: black;
+    }
+  
+}
+
+.img {
+    height: 500px;
+    width: 300px;
+    clip-path: polygon(100% 0, 100% 28%, 100% 100%, 65% 99%, 48% 96%, 38% 100%, 20% 99%, 0 91%, 0% 35%, 0 0);
+    
+}
+img[alt="logo"]{
+    width: 150px;
+    height: 130px;
+    margin-right: 40px;
+    object-position: 0 9px;
+}
+/* styling the content */
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    & img {
+        justify-self: center;
+    }
+}
+div {
+    width:  80%;
+    justify-self: center;
+    align-self: center;
+}
+.caption span:first-child {
+    color:#923600;
+}
+section div span:last-child {
+    color:#8067F0;
+}
+.caption {
+    font-size: 1.5em;
+}
+.description {
+     color: #6F6B80;
+     font-size: 1.1em;
+     margin-bottom: 8%;
+}
+div > span {
+    display: block;
+
+}
+.greeting {
+    color: #F75023;
+    font-size: x-large;
+}
+.name {
+    font-size: 60px;
+}
+button {
+    border: 2px solid #F75023;
+    background-color: #F75023;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #F75023;
+    color: white;
+    height: 20%;
+    width: 40%;
+    margin-right: 6%;
+}
+i {
+    margin: 0 2%;
+}
